@@ -1,0 +1,38 @@
+.fam {
+    text-align: -webkit-center;
+}
+.fam .navbar {
+    background-color: var(--color-secondary-darker);
+}
+
+.fam .gambarAtas {
+    text-align: center;
+    padding-bottom: 30px;
+    display: inline-table
+}
+/*
+.fam .gambarAtas .Video {
+    padding-top: 25px;
+    padding-bottom: 40px;
+}
+*/
+.fam .event {
+    text-align: initial;
+}
+
+.fam pre {
+    text-align: -webkit-auto;
+}
+
+.fam .subtitle {
+    text-align: left;
+}
+@media screen and ( min-width: 990px) {
+    .fam .event .event-wrapper {
+        flex-direction: row;
+        height: 250px;
+    }
+    .fam .subtitle {
+        text-align: center;
+    }
+}

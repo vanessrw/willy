@@ -1,0 +1,121 @@
+.eventnessy {
+    padding: 30px 0;
+    width: 100%;
+}
+
+.eventnessy .vids .vid1:hover {
+    opacity: 80%;
+}
+.eventnessy .vids .vid2:hover {
+    opacity: 80%;
+}
+.eventnessy .vids .vid3:hover {
+    opacity: 80%;
+}
+.eventnessy .vids .vid4:hover {
+    opacity: 80%;
+}
+
+.eventfam {
+    padding: 50px 0;
+    width: 100%;
+    display: flex;
+}
+
+.eventfam .vidfam {
+    margin: 0 auto;
+    display: flex;
+}
+
+.eventfam .vidfam .vid1fam {
+    width: 100%;
+    height: 300px;
+    margin-bottom: 22px;
+}
+.eventfam .vidfam .vid1fam:hover {
+    opacity: 80%;
+}
+
+.eventfam .vidfam .event-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.eventfam .vidfam .event-content p {
+    margin-bottom: 25px;
+}
+
+
+@media screen and (max-width: 672px) {
+    .eventnessy .vids {
+        display: flex;
+        flex-direction: column;
+    }
+    .eventfam .vidfam {
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        width: -webkit-fill-available;
+    }
+    .eventfam .vidfam .vid1fam {
+        padding-left: 20px;
+        width: 100%;
+        height: 300px;
+        margin-bottom: 22px;
+    }
+    .eventfam .vidfam .event-content {
+        padding-left: 20px;
+    }
+    
+}
+
+@media screen and ( min-width: 990px) {
+    .eventnessy .vids {
+        display: flex;
+        flex-direction: column;
+    }
+    .eventfam .vidfam .vid1fam {
+        height: 300px;
+        margin-left: -43%;
+    }
+    
+}
+
+@media screen and ( min-width: 1296px) {
+    .eventnessy .vids {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        column-gap: 30px;
+    }
+    .eventfam {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        grid-column-gap: 30px;
+        -moz-column-gap: 30px;
+        column-gap: 30px;
+    }
+    .eventfam .vidfam {
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .eventfam .vidfam .vid1v {
+        height: 300px;
+        margin-left: -65%;
+    }
+    .eventfam .vidfam .event-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .eventfam .vidfam .event-content .content {
+        width: max-content;
+        margin-left: -22%;
+        text-align: -webkit-left;
+        padding-left: -15px;
+    }
+}

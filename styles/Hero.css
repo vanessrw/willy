@@ -1,0 +1,122 @@
+.hero {
+    width: 100%;
+    height: fit-content;
+    background-image: url(/image/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    margin-top: -100px;
+    padding-top: calc(100px + 20px);
+    position: relative;
+}
+.hero .hero-wrapper {
+    padding: 0;
+}
+
+.hero .hero-wrapper .content-wrapper {
+    width: fit-content;
+    height: fit-content;
+
+    margin: 0 auto;
+}
+
+.hero .hero-wrapper .content-wrapper .content-wrapper-relative {
+    position: relative;
+    width: 100%;
+    height: fit-content;
+    margin: 50px auto;
+}
+
+
+.hero .hero-wrapper .content-wrapper .content {
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.hero .hero-wrapper .content-wrapper .content h3 {
+    color: rgb(88 78 164);
+    margin-bottom: 10px;
+}
+
+.hero .hero-wrapper .content-wrapper .content h1 {
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+}
+.hero .hero-wrapper .content-wrapper .content h2 {
+    color: #434974;
+}
+
+.hero .hero-wrapper .content-wrapper .content p {
+    color: #9b9b9b;
+    margin-bottom: 30px;
+}
+
+.hero .hero-wrapper .after {
+    background-color: white;
+    width: 60px;
+    height: 60px;
+
+    display: none;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+
+    position: absolute;
+    bottom: calc(0px - 30px);
+    left: calc(50% - 30px);
+}
+
+@media screen and ( min-width: 672px) {
+    .hero {
+        padding-top: calc(100px + 0px);
+        height: max-content;
+    }
+
+    .hero .hero-wrapper .after {
+        display: flex;
+    }
+
+    .hero .hero-wrapper {
+        padding: 40px 0;
+    }
+}
+
+@media screen and ( min-width: 990px) {
+    .hero {
+        padding-top: calc(100px + 50px);
+        padding-bottom: 70px;
+    }
+
+    .hero .hero-wrapper .content-wrapper {
+        margin-left: 24%;
+    }
+
+    .hero .hero-wrapper .content-wrapper .content-wrapper-relative {
+        width: fit-content;
+    }
+
+    .hero .hero-wrapper .content-wrapper .illustration {
+        display: block;
+    }
+
+    
+    .hero .hero-wrapper .content-wrapper .content {
+        align-items: flex-start;
+        text-align: left;
+    }
+}
+
+@media screen and ( min-width: 1296px) {
+
+    .hero .hero-wrapper {
+        padding: 80px 0;
+        width: 100%;
+        margin: 0 0;
+    }
+
+}

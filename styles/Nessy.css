@@ -1,0 +1,90 @@
+.hs {
+    text-align: -webkit-center;
+}
+.hs .navbar {
+    background-color: var(--color-secondary-darker);
+}
+
+.hs .gambarAtas {
+    text-align: center;
+    padding-bottom: 30px;
+    display: inline-table
+}
+
+/*
+.hs .gambarAtas .Video {
+    padding-top: 25px;
+    padding-bottom: 40px;
+}
+*/
+
+.hs .event {
+    text-align: initial;
+}
+
+.carousel {
+    width: 100%; /* Adjust as needed */
+    overflow: hidden;
+}
+
+.carousel-inner {
+    display: flex; /* or use grid for more control */
+    transition: transform 0.5s ease-in-out; /* for smooth sliding animation */
+}
+
+.carousel .carousel-inner{
+    margin-left: 0px;
+    padding-bottom: 30px;
+    place-content: center;
+}
+
+#bg_biru {
+    flex: 0 0 auto; /* Prevent flex items from shrinking */
+    margin-right: 20px; /* Adjust as needed for the gap */
+}
+
+#bg_biru:last-child {
+    margin-right: 0; /* Remove margin for the last item */
+}
+
+.nessy .nessy-wish {
+    grid-gap: 0;
+    gap: 10px;
+}
+
+.nessy .nessy-wish p {
+    margin-bottom: 16px;
+    margin-left: 44px;
+    margin-right: 35px;
+  }
+.nessy .navbar {
+    background-color: var(--color-secondary-darker);
+}
+.nessy .nessy-wish pre {
+    gap: 0;
+}
+
+@media screen and (min-width: 672px){
+    .nessy .nessy-wish{
+        margin-left: 44px;
+        margin-right: 35px;
+    }
+
+    .carousel .carousel-inner{
+        margin-left: 45px;
+    }
+}
+@media screen and ( min-width: 990px) {
+    .hs .event .event-wrapper {
+        flex-direction: row;
+        height: 250px;
+    }
+
+    .nessy .nessy-wish{
+        margin-left: 80px;
+        margin-right: 68px;
+    }
+    .carousel .carousel-inner{
+        margin-left: 45px;
+    }
+}

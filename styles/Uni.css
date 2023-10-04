@@ -1,0 +1,30 @@
+.uni {
+    text-align: -webkit-center;
+}
+.uni .navbar {
+    background-color: var(--color-secondary-darker);
+}
+
+.uni .gambarAtas {
+    text-align: center;
+    padding-bottom: 30px;
+    display: inline-table
+}
+/*
+.uni .gambarAtas .Video {
+    padding-top: 25px;
+    padding-bottom: 40px;
+}
+*/
+.uni .event {
+    text-align: initial;
+    padding-bottom: 0;
+}
+
+
+@media screen and ( min-width: 990px) {
+    .uni .event .event-wrapper {
+        flex-direction: row;
+        height: 250px;
+    }
+}

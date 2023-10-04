@@ -1,0 +1,46 @@
+.event-header-container {
+    width: 100%;
+}
+
+.event-header-container .event-header-wrapper {
+    height: fit-content;
+    padding: 20px 0;
+}
+
+.event-header-container .judul-atas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.event-header-container .judul-atas .h1 {
+    margin-bottom: 6px;
+    font-family: "Inter", sans-serif;
+    font-size: 3.5rem;
+}
+
+@media screen and ( min-width: 672px) {
+    .event-header-container .judul-atas .h1 {
+        padding-top: 30px;
+    }
+}
+
+@media screen and ( min-width: 990px) {
+    .event-header-container .judul-atas {
+        flex-direction: row;
+        text-align: end;
+    }
+    .event-header-container .judul-atas .h1 {
+        padding-top: 30px;
+        font-size: 5rem;
+    }
+}
+
+@media screen and ( min-width: 1296px) {
+    .event-header-container .judul-atas .h1 {
+        padding-top: 30px;
+        font-size: 5rem;
+    }
+}
