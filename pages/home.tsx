@@ -47,7 +47,7 @@ const Home: NextPage = () => {
           <h3> loves willy </h3>
           <Button
             text="see nessy"  
-            destination ="uni" 
+            destination ="nessy" 
           />
         </div>
       </div>
